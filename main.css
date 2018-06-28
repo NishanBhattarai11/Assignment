@@ -1,0 +1,98 @@
+   *{/*box-size conducted*/
+	box-sizing: border-box;/*Box size*/
+}
+body{/*body portion */
+	margin: 0;/*page margin*/
+	background-color: lightblue;/*Page color*/
+	background-image: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);/*back picture*/
+}
+header{/*Title*/
+    text-align: center;/*centre of page*/
+    
+     font-family: 'Permanent Marker', cursive;/*writing style*/
+     font-size: 23px;/*size of letter*/
+     color: lightgrey;/*Heading color*/
+}
+.topnavigationbar{/*navigationbar made*/
+	overflow: hidden;/*overflow made hidden*/
+	text-align: center;/*centre of page*/
+	text-shadow: 20px;/*shadow of text*/
+	display: block;/*size of letter*/
+}
+.topnavigationbar a{/*top navigation bar made*/
+	float: left;/*object in left*/
+	display: block;/*size of letter*/
+	color: black;/*font color*/
+	text-align: center;/*Centre of page*/
+	padding: 14px 16px;/*padding is conducted*/
+	text-decoration: none;/*decorating text*/
+	font-size: 25px;/*Size of letter*/
+	transition: 0.9s;/*transition conducted*/
+	padding: 1%;/*padding conducted*/
+	opacity: 0.3;/*make opaque*/
+
+}
+.topnavigationbar a:hover {/*topnavigationbar made*/
+	background-color: lightblue;/*back side color page*/
+	color: black;/*color transform to black*/
+	font-weight: 1000px;/*weight of font created*/
+
+}
+
+.Column.Middle{/*middle column created*/
+	height: 100%;/*column height*/
+width: 100%;/*size column*/
+font-size: 70px;/*size of letter*/
+background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);/*background added*/
+background-size: cover;/*width and height background*/
+color: black;/*color transform to black*/
+text-align: center;/*centre of page*/
+margin-top: 12%;/*margin from top page made*/
+padding: 40px 50px;/*padding made*/
+background-color: #454545;/*background color operated*/
+}
+.big-text{/*big text created*/
+	font-size: 150px;/*word size*/
+	font-weight: 800;/*weight of font created*/
+	
+}
+.column.middle a{/*middle column made*/
+	display: inline-block;/*display made inline*/
+	background: black;/*back page color*/
+	color: white;/*text color*/
+	text-transform: uppercase;/*size of text*/
+	text-decoration: none;/*text decoratttion is conducted*/
+	font-size: 35px;/*size of words*/
+	padding: 15px;/*padding is conducted*/
+	transition: .3s;/*transition operated*/
+	text-decoration: none;/*decoration on text done*/
+	text-decoration-color: white;/*color to text*/
+}
+.column.middle a:hover {/*column middle is operated*/
+background: black;/*back color*/
+color: white;/*font color*/
+}
+
+.Side.Content{/*side content made*/
+	float: left;/*things to left*/
+}
+.Row:after{/*row after created*/
+	content: "";/*content added*/
+	display: table;/*shows  in table form*/
+	clear: both;/*clear is operated*/
+}
+img{/*image added*/
+	width: 50px;/*size of image*/
+	height: 50px;/*height of image*/
+	border-radius: 25%;/*image border shape*/
+	margin: 1%;/*gap made*/
+}
+a{/*link is done*/
+	text-decoration-line: none;/*linewise decoration*/
+	color: black;/*text color*/
+}
+@media screen and (max-width: 600px) {/*made responsive*/
+    .column.side, .column.middle {/*column side and middle made*/
+        width: 100%;/*size of screen*/
+    }
+   

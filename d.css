@@ -1,0 +1,84 @@
+*{/*box size maintain*/
+	box-sizing: border-box;/*size of box*/
+}
+body{/*body portion created*/
+	margin: 0;/*gap is made*/
+	background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);/*background added*/
+}
+header{/*header portion created */
+    text-align: center;/*words in between*/
+     float: all;/*float is made*/
+     font-family: 'Permanent Marker', cursive;/*writing style*/
+     font-size: 23px;/*letter size*/
+     color: lightgrey;/*letter color*/
+}
+.topnavigationbar{/*navigation bar created*/
+	overflow: hidden;/*overflow made*/
+	background-color: white;/*back page color*/
+	text-align: center;/*words between page*/
+	text-shadow: 5%;/*letter shadow is made*/
+	letter-spacing: 10%;/*gap inbetween letter*/
+	opacity: 0.2;/*made opaque*/
+	display: block;/*letter weightage change*/
+}
+.topnavigationbar a{/*bar links is created*/
+	float: left;/*float made left*/
+	display: block;/*words transform to block*/
+	color: black;/*letter color change*/
+	text-align: center;/*words in between page*/
+	padding: 14px 16px;/*padding done*/
+	text-decoration: none;/*decoration made*/
+	font-size: 25px;/*letter size change*/
+	transition: 0.9s;/*transition operated*/
+	padding: 1%;/*padding created*/
+	opacity: 50%;/*made opaque*/
+}
+.topnavigationbar a:hover {/*hover created at bar*/
+	background-color: lightblue;/*back page color change*/
+	color: black;/*color of words*/
+	font-weight: 1000;/*wightage of letter*/
+}
+img{/*imageis added*/
+	width: 50px;/*image width*/
+	height: 50px;/*image height*/
+	border-radius: 25%;/*img corner radius*/
+	margin: 1%;/*gap is made*/
+}
+article{/*class is created*/
+	display: flex;/*made flex*/
+	justify-content: space-around;/*proper spacing*/
+	margin:5px;/*proper gap made*/
+}
+article img{/*image at class article*/
+	width: 300px;/*image width*/
+	height: 300px;/*image height*/
+	border-radius: 0;/*img corner radius*/
+}
+section{/*section operated*/
+	display: flex;/*flex added*/
+	justify-content: flex-start;/*proper spacing*/
+}
+div h1{/*size of heading*/
+	margin: 2%;/*proper gap made*/
+	font-size: 40px;/*letter size*/
+	color: white;/*word color*/
+}
+.first{/*class created*/
+	color: white;/*letter color change*/
+	width: 20%;/*width made*/
+	padding:3px;/*padding created*/
+	font-size: 25px;/*letter size*/
+	align-items: left;/*display items to left*/
+	margin-left: 20px;/*gap to left side*/
+	box-shadow: 5px 10px grey;/*box shadow made*/
+
+}
+.second{/*class conducted*/
+	color: white;/*letter color*/
+	padding:3px;/*padding created*/
+	font-size: 25px;/*letter size*/
+	align-items: left;/*ahow items to left*/
+	margin-left: 10px;/*gap at left side*/
+	box-shadow: 5px 10px grey;/*shadow created*/
+	width: 20%;/*size of width*/
+}

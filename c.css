@@ -1,0 +1,84 @@
+*{/*box seze maintain*/
+	box-sizing: border-box;/*box size created*/
+}
+body{/*body portion created*/
+	margin: 0;/*pagemargin*/
+	background-image: url("contact.jpg");/*image in backside is created*/
+	background-size: cover;/*size background*/
+	background-position: center;/*position background*/
+}
+
+
+header{/*header is made*/
+    text-align: center;/*words in between*/
+     float: all;/*float inserted*/
+     font-family: 'Permanent Marker', cursive;/*words style*/
+     font-size: 23px;/*size of words*/
+     color: lightgrey;/*words color*/
+}
+article{/*article inserted*/
+ display: flex;/*flex is operated*/
+}
+.topnavigationbar{/* navigation bar is made*/
+	overflow: hidden;/*hidden made*/
+	background-color: white;/*back page color transferred */
+	text-align: center;/*words in centre*/
+	text-shadow: 5%;/*shadow created*/
+	letter-spacing: 10%;/*letter gaps*/
+	opacity: 0.2;/*made more opaque*/
+	display: block;/*words changed to block*/
+}
+.topnavigationbar a{/*navigation bar operated*/
+	float: left;/*float created to left*/
+	display: block;/*words transfer to block*/
+	color: black;/*letter color change to black*/
+	text-align: center;/*words in centre of page*/
+	padding: 14px 16px;/*padding is oprated*/
+	text-decoration: none;/*decoration is made*/
+	font-size: 25px;/*letter size*/
+	transition: 0.9s;/*transition is made*/
+	padding: 1%;/*made padding*/
+	opacity: 0.5;/*opaque created*/
+}
+.topnavigationbar a:hover {/*hover made */
+	background-color: lightblue;/*back page color*/
+	color: black;/*words color*/
+	font-weight: 1000px;/*words weightage*/
+}
+iframe{/*map added*/
+	width: 95%;/*screen width*/
+	margin: 1%;/*gap around page*/
+	padding: 3%;/*padding created*/
+}
+
+input[type=submit] {/*input created*/
+    width: 100%;/*button width*/
+    background-color: #4CAF50;/*change back page color*/
+    color: white;/*words color*/
+    padding: 14px 20px;/*padding created*/
+    margin: 8px 0;/*gaps between page*/
+    border: none;/*border not made*/
+    border-radius: 4px;/*corner radius*/
+    cursor: pointer;/*pointer sign changed whenevr point*/
+}
+
+input[type=submit]:hover {/*hover on input*/
+    background-color: #45a049;/*back color of page change*/
+}
+
+div {/*class created*/
+    border-radius: 5px;/*corner made*/
+    background-color: #f2f2f2;/*back colorof page change*/
+    padding: 20px;/*padding created*/
+    }
+    footer img{/*image in footer portion added*/
+	width: 50px;/*image width added*/
+	height: 50px;/*image height*/
+	border-radius: 25%;/*corner radius*/
+	margin: 1%;/*gap is created*/
+}
+@media screen and (max-width: 600px) {/*made responsive*/
+    .column.side, .column.middle {/*for side and middle column*/
+        width: 100%;/*screen width*/
+    }
+   
